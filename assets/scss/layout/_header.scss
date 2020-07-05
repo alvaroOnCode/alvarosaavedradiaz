@@ -1,0 +1,59 @@
+header.ant-layout-header {
+  background: none;
+  height: 64px;
+  position: fixed;
+  width: 100vw;
+
+  & > div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & .header--logo {
+    width: 10vw;
+
+    & img {
+      height: 32px;
+      width: auto;
+    }
+  }
+
+  & .header--menu-top-nav {
+    width: 10vw;
+
+    & ul {
+      background: none;
+      border: none;
+      text-align: right;
+
+      & li {
+        & .ant-menu-submenu-title {
+          color: $color-grey-light;
+
+          &:hover {
+            color: $color-white;
+          }
+        }
+
+        &.ant-menu-submenu {
+          border: none;
+        }
+      }
+    }
+  }
+}
+
+.ant-menu-submenu-popup {
+  background: rgba($color: $color-white, $alpha: 0.85);
+
+  & > ul {
+    background-color: transparent;
+
+    & .ant-menu-item {
+      &:hover {
+        color: $color-secondary;
+      }
+    }
+  }
+}

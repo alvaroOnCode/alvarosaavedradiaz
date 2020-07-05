@@ -1,0 +1,11 @@
+main.ant-layout-content {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-secondary, 0.8)
+    ),
+    url(~assets/images/bg/bg-station.jpg);
+  background-position: center center;
+  background-size: cover;
+  padding: 64px 12.5vw 64px 12.5vw;
+}
