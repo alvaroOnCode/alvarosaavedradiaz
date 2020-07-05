@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="header__text-box">
+    <div class="container-personal">
       <!-- Title and subtitle -->
       <h1 class="heading-primary">
         <span class="heading-primary--main">Álvaro Saavedra Díaz</span>

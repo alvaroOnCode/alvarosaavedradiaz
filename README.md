@@ -1,20 +1,50 @@
-# alvarosaavedradiaz
+# 🧑‍💻 Álvaro Saavedra 🧑‍💻 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-## Build Setup
+## 🔖 Description
 
-```bash
-# install dependencies
-$ npm install
+Corporate website made with NuxtJS.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## 🎓 Tech
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+This website is built with NuxtJS, using the `content-module` for the blog and stylized with Ant Design Vue.
 
-# generate static project
-$ npm run generate
-```
+## 📚 Web Pages
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- **Home**
+
+  - 🔔 **Slug:** `/` or `/home`
+  - 🔓 **Auth:** public
+  - 🖨️ **Rendering:** Pre-rendered
+  - 🖨️ **Mind the SEO:** Yes!
+
+- **Blog**
+
+  - 🔔 **Slug:** `/blog`
+  - 🔓 **Auth:** public
+  - 🖨️ **Rendering:** Pre-rendered
+  - 🖨️ **Mind the SEO:** Yes!
+
+- **Articles**
+
+  - 🔔 **Slug:** `/articles/:id`
+  - 🔓 **Auth:** public
+  - 🖨️ **Rendering:** ?
+  - 🖨️ **Mind the SEO:** Yes!
+
+## 🌍 Languages
+
+- 🇺🇸 English
+- 🇪🇸 Español
+
+## Powered by
+
+[NuxtJS](https://nuxtjs.org/) and [Ant Design Vue](https://www.antdv.com/docs/vue/introduce/).
+
+## Happy Code
+
+Made with JavaScript and a lot of ❤️.
+
+## This README.md file looks pretty because of
+
+[GitHub Markdown](https://guides.github.com/features/mastering-markdown/) \
+[Emojipedia](https://emojipedia.org/)
