@@ -1,16 +1,14 @@
 body {
+  color: $color-grey-dark;
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  line-height: 1.7;
-  color: $color-grey-dark;
 }
 
 .heading-primary {
-  color: $color-white;
-  text-transform: uppercase;
-
   backface-visibility: hidden;
-  margin-bottom: 6rem;
+  color: $color-white;
+  text-align: center;
+  text-transform: uppercase;
 
   &--main {
     display: block;
@@ -30,6 +28,7 @@ body {
     display: block;
     font-size: 2rem;
     font-weight: 700;
+    letter-spacing: 2.6rem;
     animation: moveInRight 1s ease-out;
 
     @include respond(phone) {
@@ -78,5 +77,20 @@ body {
 
   &:not(:last-child) {
     margin-bottom: 3rem;
+  }
+}
+
+main.ant-layout-content {
+  & .container {
+    & .container-personal {
+      /*& .container-personal__text-block {
+      }*/
+
+      & .container-personal__card-bio {
+        & .card-bio__bio {
+          color: $color-white;
+        }
+      }
+    }
   }
 }

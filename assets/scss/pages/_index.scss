@@ -1,5 +1,42 @@
-.ant-layout-content .container {
-  height: 75vh;
+main.ant-layout-content {
+  &.nice-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary, 0.8),
+        rgba($color-secondary, 0.8)
+      ),
+      url(~assets/images/bg/bg-station.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  &.white-bg {
+    background-color: $color-white;
+  }
+
+  & .container {
+    position: relative;
+
+    & .container-personal {
+      position: relative;
+      height: 75vh;
+
+      & .container-personal__text-block {
+        left: 50%;
+        position: absolute;
+        top: 16%;
+        transform: translate(-50%, -50%);
+        width: 60%;
+      }
+
+      & .container-personal__card-bio {
+        position: absolute;
+        top: 32%;
+
+        & .ant-col {
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
 }
-
-

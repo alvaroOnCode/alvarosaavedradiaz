@@ -1,8 +1,20 @@
 header.ant-layout-header {
-  background: none;
   height: 64px;
   position: fixed;
   width: 100vw;
+
+  &.nice-bg {
+    background: $color-primary;
+    background: linear-gradient(
+      to right bottom,
+      rgba($color-primary, 0.8),
+      rgba($color-secondary, 0.8)
+    );
+  }
+
+  &.no-bg {
+    background: none;
+  }
 
   & > div {
     align-items: center;

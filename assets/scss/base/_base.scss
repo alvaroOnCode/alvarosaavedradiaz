@@ -33,6 +33,11 @@ body {
   }
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 ::selection {
   background-color: $color-primary;
   color: $color-white;

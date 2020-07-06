@@ -2,7 +2,9 @@
   <div>
     <div class="header--logo">
       <!-- Logo -->
-      <img src="~assets/images/logo/logo-white.png" alt="Álvaro Saavedra" />
+      <nuxt-link to="/">
+        <img src="~assets/images/logo/logo-white.png" alt="Álvaro Saavedra" />
+      </nuxt-link>
     </div>
 
     <!-- Menu -->
