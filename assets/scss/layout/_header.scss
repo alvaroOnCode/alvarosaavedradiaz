@@ -1,15 +1,10 @@
 header.ant-layout-header {
-  height: 64px;
-  position: fixed;
+  height: $header-height;
+  position: absolute;
   width: 100vw;
 
   &.nice-bg {
-    background: $color-primary;
-    background: linear-gradient(
-      to right bottom,
-      rgba($color-primary, 0.8),
-      rgba($color-secondary, 0.8)
-    );
+    background: $color-grey-dark;
   }
 
   &.no-bg {

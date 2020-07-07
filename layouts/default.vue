@@ -12,7 +12,9 @@
       </a-layout-content>
 
       <!-- Footer -->
-      <a-layout-footer>Footer</a-layout-footer>
+      <a-layout-footer>
+        <Footer />
+      </a-layout-footer>
     </a-layout>
   </div>
 </template>

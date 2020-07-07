@@ -1,15 +1,16 @@
 // Colors
 $color-primary: #0af;
-$color-primary-dark: #0070A6;
-$color-primary-light: #73D1FF;
+$color-primary-dark: #0070a6;
+$color-primary-light: #73d1ff;
 
 $color-secondary: #ed1450;
-$color-secondary-dark: #9A062E;
-$color-secondary-light: #F67A9B;
+$color-secondary-dark: #9a062e;
+$color-secondary-light: #f67a9b;
 
 $color-grey: #434343;
 $color-grey-dark: #030303;
-$color-grey-light: #f3f3f3;
+$color-grey-light: #b3b3b3;
+$color-grey-super-light: #f3f3f3;
 
 $color-white: #fff;
 $color-black: #000;
@@ -22,3 +23,7 @@ $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-vertical-small: 6rem;
 $gutter-horizontal: 6rem;
+
+// Sizes
+$header-height: 64px;
+$footer-height: 48px;

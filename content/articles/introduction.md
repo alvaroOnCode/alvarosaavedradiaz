@@ -1,11 +1,9 @@
 ---
-title: 🚀 ¡Hola, Mundo! 🚀
+title: ¡Hola, Mundo!
 description: Página web de Álvaro Saavedra (@alvaroOnCode) donde encontrarás información personal, profesional y artículos de desarrollo de sofware 🧑‍💻
 img: first-blog-post.jpg
 alt: Presentación y bienvenida
 ---
-
-# 🚀 ¡Hola, Mundo! 🚀
 
 I am a Software Developer, based in Seville (Spain). Currently, I work on International Business Development and Projects Department at Emergya, as Full Stack JavaScript Developer. We migrate old-fashioned websites to newer technologies for international brands, all over the world. 
 

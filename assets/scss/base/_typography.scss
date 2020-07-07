@@ -14,9 +14,7 @@ body {
     display: block;
     font-size: 6rem;
 
-    animation-name: moveInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    animation: moveInLeft 1s ease-out;
 
     @include respond(phone) {
       letter-spacing: 1rem;
@@ -25,11 +23,11 @@ body {
   }
 
   &--sub {
+    animation: moveInRight 1s ease-out;
     display: block;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 2.6rem;
-    animation: moveInRight 1s ease-out;
 
     @include respond(phone) {
       letter-spacing: 0.5rem;
@@ -45,6 +43,7 @@ body {
   background-image: linear-gradient(
     to right,
     $color-primary-light,
+    $color-primary,
     $color-primary-dark
   );
   -webkit-background-clip: text;
@@ -61,7 +60,7 @@ body {
   }
 
   &:hover {
-    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    transform: scale(1.01);
     text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
   }
 }
@@ -82,15 +81,39 @@ body {
 
 main.ant-layout-content {
   & .container {
+    // Index
     & .container-personal {
-      /*& .container-personal__text-block {
-      }*/
-
       & .container-personal__card-bio {
         & .card-bio__bio {
           color: $color-white;
         }
       }
     }
+
+    // Blog
+    & .container-blog {
+      & .container-blog__text-block {
+        & .heading-primary {
+          color: $color-grey;
+        }
+      }
+    }
+
+    // Article
+    & .container-article {
+      & .description {
+        color: $color-grey-light;
+        font-size: $default-font-size;
+      }
+      
+      & .date {
+        color: $color-grey-light;
+        font-size: $default-font-size * 0.65;
+      }
+    }
   }
+}
+
+.footer.ant-layout-footer {
+  color: $color-grey-dark;
 }

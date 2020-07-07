@@ -1,3 +1,23 @@
 main.ant-layout-content {
-  padding: 64px 12.5vw 64px 12.5vw;
+  min-height: calc(100vh - #{$footer-height});
+  padding: 8rem 12.5vw 4rem 12.5vw;
+
+  &.nice-bg {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary, 0.85),
+        rgba($color-secondary, 0.85)
+      ),
+      url(~assets/images/bg/bg-station.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+
+  &.white-bg {
+    background-color: $color-white;
+  }
+
+  & .container {
+    position: relative;
+  }
 }
