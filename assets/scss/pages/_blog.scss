@@ -1,0 +1,22 @@
+main.ant-layout-content {
+  & .container {
+    & .container-blog {
+      & .container-blog__articles {
+        & .container-blog__article {
+          padding: 0 3rem 2rem 3rem;
+
+          &:hover {
+            & .ant-card {
+              background-color: $color-primary;
+            }
+          }
+
+          & .ant-card {
+            margin: 0 auto;
+            min-height: 100%;
+          }
+        }
+      }
+    }
+  }
+}

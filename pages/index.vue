@@ -43,7 +43,3 @@
     </div>
   </div>
 </template>
-
-<style lang="scss">
-@import "@/assets/scss/pages/_index.scss";
-</style>

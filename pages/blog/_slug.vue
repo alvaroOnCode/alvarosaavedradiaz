@@ -1,18 +1,34 @@
 <template>
   <section class="container">
     <article class="container-article">
-      <a-row type="flex" justify="center">
+      <a-row class="container-article__heading" type="flex" justify="center">
         <a-col :span="16">
-          <img :src="article.img" :alt="article.alt" />
+          <a-row type="flex" justify="space-between">
+            <a-col :span="7" class="container-article__heading--img">
+              <img :src="article.img" :alt="article.alt" />
+            </a-col>
 
-          <h1 class="heading-secondary">{{ article.title }}</h1>
-          <h2 class="description">{{ article.description }}</h2>
+            <a-col :span="16">
+              <h1 class="heading-secondary">{{ article.title }}</h1>
+              <h2 class="description">🧑‍💻 {{ article.description }}</h2>
 
-          <p class="date">Actualizado el {{ formatDate(article.updatedAt) }}</p>
+              <p class="date">Actualizado el {{ formatDate(article.updatedAt) }}</p>
+            </a-col>
+          </a-row>
+        </a-col>
+      </a-row>
 
+      <a-row class="container-article__content" type="flex" justify="center">
+        <a-col :span="16">
           <nuxt-content class="paragraph" :document="article" />
 
-          <a-avatar v-for="(tag, index) in article.tags" :key="index" :src="url(tag)" size="large" />
+          <a-avatar
+            v-for="(tag, index) in article.tags"
+            :key="index"
+            :src="url(tag)"
+            class="container-article__content--avatar"
+            size="large"
+          />
 
           <prev-next :prev="prev" :next="next" />
         </a-col>
@@ -51,7 +67,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss">
-@import "@/assets/scss/pages/_article.scss";
-</style>

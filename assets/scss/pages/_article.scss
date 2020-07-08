@@ -1,0 +1,24 @@
+main.ant-layout-content {
+  & .container {
+    & .container-article {
+      & .container-article__heading {
+        margin-bottom: 3rem;
+
+        & .ant-col {
+          & .container-article__heading--img {
+            & img {
+              height: auto;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      & .container-article__content {
+        & .container-article__content--avatar {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}

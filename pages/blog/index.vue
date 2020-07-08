@@ -8,14 +8,24 @@
         </a-col>
       </a-row>
 
-      <a-row v-for="article of articles" :key="article.slug">
-        <a-col>
+      <a-row class="container-blog__articles" type="flex">
+        <a-col
+          v-for="article of articles"
+          :key="article.slug"
+          :span="6"
+          class="container-blog__article"
+          hoverable
+        >
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <img :src="article.img" />
-            <div>
-              <h2>{{ article.title }}</h2>
-              <p>{{ article.description }}</p>
-            </div>
+            <a-card hoverable>
+              <img :alt="article.title" :src="article.img" slot="cover" />
+
+              <a-card-meta :title="article.title" class="heading-tertiary">
+                <template slot="description">
+                  <p class="paragraph">{{ article.description }}</p>
+                </template>
+              </a-card-meta>
+            </a-card>
           </NuxtLink>
         </a-col>
       </a-row>
@@ -34,10 +44,12 @@ export default {
     return {
       articles
     };
+  },
+
+  methods: {
+    url(tag) {
+      return require(`@/assets/images/brands/${tag}.png`);
+    }
   }
 };
 </script>
-
-<style lang="scss">
-@import "@/assets/scss/pages/_blog.scss";
-</style>

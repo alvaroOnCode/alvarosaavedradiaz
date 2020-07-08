@@ -1,10 +1,10 @@
 ---
 title: ¡JavaScript al poder!
-description: Un breve resumen sobre cómo JavaScript ha evolucionado 🧑‍💻
-img: first-blog-post.jpg
+description: Un breve resumen sobre cómo JavaScript ha evolucionado
+img: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/21227005_500676550281813_6246855208467431424_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=YguLlQvcZ0QAX-5iPe_&oh=34b23a6c1804a869b9a74ccfb68f2218&oe=5F30B601
 alt: JavaScript al poder
 
-tags: [ant-design-vue, git, github, javascript, mongodb, nodejs, vue]
+tags: [javascript]
 ---
 
 JavaScript es de los lenguajes de progración más relevantes actualmente. No sólo ha crecido y evolucionado desde su creación en 1995 sino que se ha ganado un buen sitio en el pódium en el desarrollo web en estos últimos tiempos. Y creo que esto sólo acaba de empezar, creo.
