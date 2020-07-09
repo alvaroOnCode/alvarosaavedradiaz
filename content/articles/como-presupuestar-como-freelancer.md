@@ -29,12 +29,6 @@ Facturar por horas suele ser lo menos rentable para trabajadores por cuenta prop
 
 No debemos sorprendernos si nos piden renegociar el precio si siempre estamos disponibles para aceptar trabajos.
 
-<img src="https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/47123842_339063223591051_3687937472481007562_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=6GPREjZu6DgAX8BJxE8&oh=f362c82a2218fcaf4ec3cde036c4bcc1&oe=5F3057D6"
-    alt="Shapes O'Clock"
-    width="60%"
-    height="auto"
-    style="margin: 0 20%;" />
-
 ### Facturar por jornadas
 
 Existen dos maneras de facturar por jornadas:

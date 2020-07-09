@@ -7,13 +7,18 @@ main.ant-layout-content {
 
           &:hover {
             & .ant-card {
-              background-color: $color-primary;
+              background-image: linear-gradient(
+                to right bottom,
+                $color-primary,
+                $color-secondary
+              );
             }
           }
 
           & .ant-card {
             margin: 0 auto;
             min-height: 100%;
+            transition: 300ms;
           }
         }
       }

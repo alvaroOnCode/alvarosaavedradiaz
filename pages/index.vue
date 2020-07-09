@@ -30,14 +30,22 @@
 
         <!-- Bio -->
         <a-col :span="8">
-          <h3 class="heading-tertiary card-bio__bio">Hello, World!</h3>
+          <h3 class="heading-tertiary card-bio__bio">¡Hola, Mundo!</h3>
           <p
             class="paragraph card-bio__bio"
-          >I am a Software Developer, based in Seville (Spain). Currently, I work as Full Stack JavaScript Developer on International Business Development and Projects Department at Emergya migrating old-fashioned websites to newer technologies.</p>
+          >Soy desarrollador de software y vivo en Sevilla (España). Actualmente trabajo como Full-Stack JavaScript Developer en la divión internacional de Emergya Consultoría. Allí, ayudo a migrar portales que fueron desarrollados con tecnologías que hoy consideramos obsoletas a stacks más actuales.</p>
+
           <p
             class="paragraph card-bio__bio"
-          >I love programming, but I’ve always had a soft spot for Architecture. I dedicate time to reading, sketching and creating interactive archviz (architectural visualizations) and renders. But mostly, I open my eyes and look, and admire... and that, I guess, is the reason I discovered photography.</p>
-          <p class="paragraph card-bio__bio">Now you know a bit about me. Let's talk!</p>
+          >Hace algunos años que me adentré en el universo de <u>JavaScript</u> y no salgo de mi asombro al ver la cantidad de cosas que se pueden hacer con un único lenguaje. En este blog escribiré mayoritariamente sobre <u>JavaScript</u> y su ecosistema.</p>
+
+          <p
+            class="paragraph card-bio__bio"
+          >Me apasiona programar, pero siempre he tenido debilidad y admiración por la arquitectura. Dedico parte de mi tiempo libre a leer, dibujar y desarrollar experiencias arquitectónicas interactivas (archviz) con <u>Unity</u> y <u>Unreal</u>. Esta pasión me ayudó a abrir los ojos y aprender a mirar y a admirar... y es por eso, supongo, por lo que descubrí la fotografía.</p>
+
+          <p class="paragraph card-bio__bio">Ya sabes un poco más sobre mí, ¿hablamos?</p>
+
+          <p class="paragraph card-bio__bio">👈</p>
         </a-col>
       </a-row>
     </div>
