@@ -7,29 +7,37 @@ alt: Cómo presupuestar como freelancer
 tags: []
 ---
 
-En este artículo trataré de sacar la esencia de un [hilo](https://twitter.com/tom_hirst/status/1277933730078785537) de Twitter bastante ineteresante sobre cómo presupuestar proyectos cuando trabajas por cuenta propia. Está en inglés y su autor es [Tom Hirst](https://twitter.com/tom_hirst) y, en mi opinión, no tiene precio.
+En este artículo trataré de sacar la esencia de un [hilo](https://twitter.com/tom_hirst/status/1277933730078785537) de Twitter bastante ineteresante sobre cómo presupuestar proyectos cuando trabajas por cuenta propia. Está en inglés y su autor es [Tom Hirst](https://twitter.com/tom_hirst) y, en mi opinión, no tiene precio. En ningún caso se debe interpretar este artículo como una traducción literal del hilo ya que no tengo las habilidades para ello ni tampoco es la intención. La idea es que aquellos que tienen dificultades con el inglés también tengan acceso a tan valiosa información.
 
-En el hilo se presentan distintas estrategias de cotización a aplicar dependiendo de las características y necesidades del cliente y del proyecto. A partir de aquí empieza mi humilde interpretación del hilo:
+En el hilo se presentan distintas estrategias para elaborar presupuestos y se dan consejos sobre cómo y cuándo aplicarlas según las características y necesidades del cliente y del proyecto.
 
-⬇️
+Espero que lo encuentres interesante. ⬇️
 
 Tener una única estrategia para presupuestar todo tipo de proyectos suele ser sinónimo de fracaso. Al menos, hay que saber que existen varios tipos de estrategia:
 
 - Facturar por horas.
 - Facturar por jornadas.
-- Retenedores.
+- Contrato de retención.
 - Presupuestar con un precio cerrado.
 - Presupuestar según nuestra valía.
 
 Entender los pros y los contras de cada estrategia, así como nuestras circunstancias, y conocer realmente el proyecto que nos encargan es esencial para poder elegir correctamente.
 
-### Facturar por horas
+<img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-escoger_114360-553.jpg"
+    alt="Entender las estrategias para elaborar presupuestos"
+    width="40%"
+    height="auto"
+    style="margin: 0 30%;" />
 
 Facturar por horas suele ser lo menos rentable para trabajadores por cuenta propia o freelancers. Si no nos queda más remedio que elegir este método para empezar hay que intentar dejarlo lo antes posible. Es, de lejos, la peor estrategia para rentabilizar proyectos y la menos eficiente. Si queremos evitar tener que estimar pequeñas tareas, rellenar cientos de hojas de cálculo, mandar innumerables facturas y tener que justificar cada minuto que dedicamos debemos dejar de facturar por horas.
 
 No debemos sorprendernos si nos piden renegociar el precio si siempre estamos disponibles para aceptar trabajos.
 
-### Facturar por jornadas
+<img src="https://image.freepik.com/vector-gratis/concepto-quiebra-plana_23-2148497646.jpg"
+    alt="Rebajar el presupuesto"
+    width="40%"
+    height="auto"
+    style="margin: 0 30%;" />
 
 Existen dos maneras de facturar por jornadas:
 
@@ -54,14 +62,18 @@ Nuestro propuesta de presupuesto debe ser mayor que la estimación que hagamos.
 
 No debemos caer en el error de compartir demasiada información específica del proyecto en nuestra propuesta. Si no somos capaces de elaborar un presupuesto con la información que tengamos quizás sea necesario un pre-proyecto. La labor de investigar sobre alguna materia o asunto tiene un valor y debe tener un precio.
 
-No estamos obligados a usar la misma metodología de facturación para cada contrato. Puede ser que con un cliente X usemos la estrategia por horas, con un cliente Y la estrategia por jornadas y con un cliente Z la estrategia de retenedor continuo. Debemos usar la estrategia que mejor se adapte a cada proyecto.
+No estamos obligados a usar la misma metodología de facturación para cada contrato. Puede ser que con un cliente X usemos la estrategia por horas, con un cliente Y la estrategia por jornadas y con un cliente Z la estrategia por contrato de retención. Debemos usar la estrategia que mejor se adapte a cada proyecto.
 
 A veces, como freelancer, presupuestar es tan fácil como:
 
 - Freelancer: "Me parece bien ese precio por hacer ese trabajo".
 - Cliente: "No me importa pagar ese precio por ese trabajo terminado".
 
-### Facturar un precio cerrado
+<img src="https://image.freepik.com/vector-gratis/hombre-negocios-agitando-manos-sobre-contrato-firmado_3446-646.jpg"
+    alt="Trato hecho"
+    width="40%"
+    height="auto"
+    style="margin: 0 30%;" />
 
 Si usamos este método, deberíamos:
 
@@ -90,8 +102,44 @@ Los presupuestos basados en nuestra valía son los que requieren más esfuerzo a
 
 Facturar por jornadas cuando estás sujeto a dedicar un número estipulado de horas es peor que facturar por horas.
 
-Seguir por aquí: https://twitter.com/tom_hirst/status/1277933899218399235
+Los contratos de retención, para el que no lo sepa, son aquelos en los cuales el cliente paga por adelantado para el trabajo profesional que se especifica en dicho contrato. Esta estragetegia es, obviamente, la más beneficiosa y segura para los freelancers.
 
-⬆️
+Si se diera el caso, debemos dar preferencia a aquellos contratos de retención en los que se nos busca por nuestro conocimiento, no por nuestro trabajo.
 
-[Este](https://twitter.com/tom_hirst/status/1277933730078785537) es el hilo original de Twitter.
+Las estimaciones NUNCA son precisas. Es por eso que son estimaciones.
+
+Los términos y condiciones de los contratos con precio fijo suelen ser los mejores.
+
+Añade un 20% al presupuesto de precio fijo si la entrega del proyecto es ajustada.
+
+Si es más arriesgado para nosotros trabajar con un cliente concreto es presupuesto debería ser más alto y viceversa. El precio es un reflejo del riesgo.
+
+Nunca aceptes un presupuesto a precio de coste.
+
+Es preferible negociar las condiciones al precio del presupuesto.
+
+Rebajar el precio significa devaluar nuestro trabajo si no se reduce el alcance del proyecto.
+
+Si tienes la intuición de que el proyecto puede torcerse, probablemente lo hará. Añade un 20%.
+
+<img src="https://image.freepik.com/vector-gratis/crecimiento-economico_24877-49241.jpg"
+    alt="Concluiones"
+    width="40%"
+    height="auto"
+    style="margin: 0 30%;" />
+
+Como conclusión podríamos decir:
+
+- Elaborar presupuestos como freelancer es bastante complicado.
+- No existe una solución única para todos los clientes y proyectos.
+- Debemos estudiar y entender las distintas estrategias.
+- Focalicemos nuestras preferencias.
+- Seamos conscientes de nuestras circunstancias (conocimientos, disponibilidad, experiencia, etc).
+- Ajustemos el precio a lo que creamos que el cliente va a aceptar.
+- Aprendamos a elegir la estrategia idónea que nos permita estar satisfechos con el precio propuesto.
+
+⬆️ Mientras escribía el artículo, me dí cueenta de que el autor había hecho un post donde recogía el hilo completo original así que lo comparto [aquí](https://www.tomhirst.com/pricing-freelance-projects/).
+
+Seguro que la próxima vez que nos toque presupuestar algún proyecto cambia nuestra forma de plantearlo.
+
+¡Saludos!
