@@ -1,6 +1,6 @@
 ---
 title: Cómo añadir una bio en GitHub
-description: Un pequeño truco para mejorar tu perfil de GitHub
+description: Si quieres mejorar tu perfil de developer, te enseño cómo añadir una bio en GitHub, de forma sencilla y rápida. ¡Contacta conmigo si tienes dudas!
 img: https://res.cloudinary.com/alvarooncode/image/upload/v1594293286/alvarosaavedradiaz/articles/como-anadir-una-bio-en-github/github-secret_dr2dnz.jpg
 alt: Cómo añadir una bio en GitHub
 
