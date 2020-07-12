@@ -1,6 +1,11 @@
 main.ant-layout-content {
   & .container {
     & .container-blog {
+      & .container-blog__tags {
+        margin-bottom: 2rem;
+        text-align: center;
+      }
+
       & .container-blog__articles {
         & .container-blog__article {
           padding: 0 3rem 2rem 3rem;
@@ -12,6 +17,7 @@ main.ant-layout-content {
                 $color-primary,
                 $color-secondary
               );
+              border: none;
             }
           }
 
@@ -19,6 +25,35 @@ main.ant-layout-content {
             margin: 0 auto;
             min-height: 100%;
             transition: 300ms;
+
+            & .ant-card-cover {
+              height: 24rem;
+
+              & img {
+                height: 100%;
+                -o-object-fit: cover;
+                object-fit: cover;
+                width: 100%;
+              }
+            }
+
+            & .ant-card-body {
+              & .ant-card-meta {
+                min-height: 128px;
+
+                & .ant-card-meta-detail {
+                  & .ant-card-meta-title {
+                    white-space: initial;
+                    text-overflow: initial;
+                  }
+
+                  & .ant-card-meta-description {
+                    max-height: 6rem;
+                    text-overflow: ellipsis;
+                  }
+                }
+              }
+            }
           }
         }
       }

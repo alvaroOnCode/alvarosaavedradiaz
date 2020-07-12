@@ -1,11 +1,11 @@
 <template>
-  <a-row type="flex" justify="space-between">
+  <a-row class="prev-next__container" type="flex" justify="space-between">
     <!-- Previous -->
     <a-col>
       <NuxtLink
         v-if="prev"
         :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
-        class="text-primary font-bold hover:underline"
+        class=""
       >
         <a-icon type="caret-left" />
         {{ prev.title }}
@@ -17,7 +17,7 @@
       <NuxtLink
         v-if="next"
         :to="{ name: 'blog-slug', params: { slug: next.slug } }"
-        class="font-bold hover:underline"
+        class=""
       >
         {{ next.title }}
         <a-icon type="caret-right" />

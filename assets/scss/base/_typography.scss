@@ -147,6 +147,32 @@ main.ant-layout-content {
         color: $color-grey-light;
         font-size: $default-font-size * 0.65;
       }
+
+      & .container-article__content {
+        & .paragraph {
+          & a {
+            color: $color-primary;
+            transition: 300ms;
+
+            &:hover {
+              color: $color-primary-dark;
+            }
+          }
+        }
+      }
+
+      & .prev-next__container {
+        & .ant-col {
+          a {
+            color: $color-primary;
+            transition: 300ms;
+
+            &:hover {
+              color: $color-primary-dark;
+            }
+          }
+        }
+      }
     }
   }
 }

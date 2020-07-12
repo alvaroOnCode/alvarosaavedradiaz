@@ -1,36 +1,53 @@
 <template>
   <section class="container">
     <article class="container-article">
+      <!-- Heading -->
       <a-row class="container-article__heading" type="flex" justify="center">
         <a-col :span="16">
           <a-row type="flex" justify="space-between">
+            <!-- Image -->
             <a-col :span="7" class="container-article__heading--img">
               <img :src="article.img" :alt="article.alt" />
             </a-col>
 
+            <!-- Title and description -->
             <a-col :span="16">
-              <h1 class="heading-secondary">{{ article.title }}</h1>
-              <h2 class="description">🧑‍💻 {{ article.description }}</h2>
+              <a-row>
+                <a-col :span="24">
+                  <h1 class="heading-secondary">{{ article.title }}</h1>
+                  <h2 class="description">🧑‍💻 {{ article.description }}</h2>
 
-              <p class="date">Actualizado el {{ formatDate(article.updatedAt) }}</p>
+                  <p class="date">📅 Actualizado el {{ formatDate(article.updatedAt) }}</p>
+                </a-col>
+              </a-row>
+
+              <a-row>
+                <a-col :span="24">
+                  <!-- Tags -->
+                  <tag-avatars :size="'large'" :tags="article.tags" />
+                </a-col>
+              </a-row>
             </a-col>
           </a-row>
+
+          <a-divider />
         </a-col>
       </a-row>
 
+      <!-- Content -->
       <a-row class="container-article__content" type="flex" justify="center">
         <a-col :span="16">
+          <!-- Text -->
           <nuxt-content class="paragraph" :document="article" />
 
-          <a-avatar
-            v-for="(tag, index) in article.tags"
-            :key="index"
-            :src="url(tag)"
-            class="container-article__content--avatar"
-            size="large"
-          />
+          <a-divider />
 
-          <prev-next :prev="prev" :next="next" />
+          <!-- Prev and Next -->
+          <a-row>
+            <a-col :span="24">
+              <prev-next :prev="prev" :next="next" />
+            </a-col>
+          </a-row>
         </a-col>
       </a-row>
     </article>
@@ -59,10 +76,6 @@ export default {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("es", options);
-    },
-
-    url(tag) {
-      return require(`@/assets/images/brands/${tag}.png`);
     }
   }
 };

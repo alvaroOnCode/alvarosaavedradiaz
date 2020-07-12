@@ -4,7 +4,7 @@ description: Traducción de un hilo de Twitter sobre distintas estrategias de pr
 img: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/60316865_2256837771249308_4275746802988042495_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5byGJh3BScUAX_2uNZ7&oh=ecc9135296996cf415314b983ca2f530&oe=5F2E8141
 alt: Cómo presupuestar como freelancer
 
-tags: []
+tags: [finanzas, freelancer]
 ---
 
 En este artículo trataré de sacar la esencia de un [hilo](https://twitter.com/tom_hirst/status/1277933730078785537) de Twitter bastante ineteresante sobre cómo presupuestar proyectos cuando trabajas por cuenta propia. Está en inglés y su autor es [Tom Hirst](https://twitter.com/tom_hirst) y, en mi opinión, no tiene precio. En ningún caso se debe interpretar este artículo como una traducción literal del hilo ya que no tengo las habilidades para ello ni tampoco es la intención. La idea es que aquellos que tienen dificultades con el inglés también tengan acceso a tan valiosa información.

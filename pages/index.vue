@@ -35,17 +35,19 @@
             class="paragraph card-bio__bio"
           >Soy desarrollador de software y vivo en Sevilla (España). Actualmente trabajo como Full-Stack JavaScript Developer en la divión internacional de Emergya Consultoría. Allí, ayudo a migrar portales que fueron desarrollados con tecnologías que hoy consideramos obsoletas a stacks más actuales.</p>
 
-          <p
-            class="paragraph card-bio__bio"
-          >Hace algunos años que me adentré en el universo de <u>JavaScript</u> y no salgo de mi asombro al ver la cantidad de cosas que se pueden hacer con un único lenguaje. En este blog escribiré mayoritariamente sobre <u>JavaScript</u> y su ecosistema.</p>
+          <p class="paragraph card-bio__bio">
+            Hace algunos años que me adentré en el universo de
+            <u>JavaScript</u> y no salgo de mi asombro al ver la cantidad de cosas que se pueden hacer con un único lenguaje. En este blog escribiré mayoritariamente sobre
+            <u>JavaScript</u> y su ecosistema.
+          </p>
 
-          <p
-            class="paragraph card-bio__bio"
-          >Me apasiona programar, pero siempre he tenido debilidad y admiración por la arquitectura. Dedico parte de mi tiempo libre a leer, dibujar y desarrollar experiencias arquitectónicas interactivas (archviz) con <u>Unity</u> y <u>Unreal</u>. Esta pasión me ayudó a abrir los ojos y aprender a mirar y a admirar... y es por eso, supongo, por lo que descubrí la fotografía.</p>
+          <p class="paragraph card-bio__bio">
+            Me apasiona programar, pero siempre he tenido debilidad y admiración por la arquitectura. Dedico parte de mi tiempo libre a leer, dibujar y desarrollar experiencias arquitectónicas interactivas (archviz) con
+            <u>Unity</u> y
+            <u>Unreal</u>. Esta pasión me ayudó a abrir los ojos y aprender a mirar y a admirar... y es por eso, supongo, por lo que descubrí la fotografía.
+          </p>
 
           <p class="paragraph card-bio__bio">Ya sabes un poco más sobre mí, ¿hablamos?</p>
-
-          <p class="paragraph card-bio__bio">👈</p>
         </a-col>
       </a-row>
     </div>
