@@ -1,8 +1,18 @@
 main.ant-layout-content {
   & .container {
     & .container-article {
+      padding-top: 3rem;
+
       & .container-article__heading {
-        & .ant-col {
+        & > .ant-col {
+          & .ant-row-flex {
+            & > .ant-col {
+              @include respond(phone) {
+                width: 100%;
+              }
+            }
+          }
+
           & .container-article__heading--img {
             & img {
               height: 100%;
@@ -10,6 +20,36 @@ main.ant-layout-content {
               object-fit: cover;
               width: 100%;
             }
+          }
+
+          @include respond(phone) {
+            width: 100%;
+          }
+        }
+
+        & .container-article__avatars {
+          & .container-article__avatar-container.ant-col {
+            width: fit-content;
+          }
+
+          @include respond(phone) {
+            padding: 1rem 0;
+          }
+        }
+      }
+
+      & .container-article__content {
+        & > .ant-col {
+          & p {
+            & img {
+              @include respond(phone) {
+                padding: 1rem 0;
+              }
+            }
+          }
+
+          @include respond(phone) {
+            width: 100%;
           }
         }
       }

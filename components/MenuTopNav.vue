@@ -1,23 +1,25 @@
 <template>
-  <div class="header--menu-top-nav">
-    <a-menu mode="horizontal">
-      <a-sub-menu>
-        <span slot="title" class="submenu-title-wrapper">
-          <nuxt-link to="/blog">
-            <a-icon type="setting" />Blog
-          </nuxt-link>
-        </span>
-
-        <a-menu-item key="setting:1">JavaScript</a-menu-item>
-        <a-menu-item key="setting:1">MongoDB</a-menu-item>
-        <a-menu-item key="setting:1">NodeJS</a-menu-item>
-        <a-menu-item key="setting:1">NuxtJS</a-menu-item>
-        <a-menu-item key="setting:2">VueJS</a-menu-item>
-      </a-sub-menu>
-    </a-menu>
+  <div v-if="visible" class="header--menu-top-nav">
+    <nuxt-link to="/blog">
+      <a-button class="btn--nav" ghost>Blog</a-button>
+    </nuxt-link>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    visible() {
+      let bool = true;
+
+      try {
+        bool = $nuxt.$route.path !== "/blog";
+      } catch (error) {
+        bool = true;
+      }
+
+      return bool;
+    }
+  }
+};
 </script>

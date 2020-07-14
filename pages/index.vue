@@ -3,7 +3,7 @@
     <div class="container-personal">
       <!-- Title and Subtitle -->
       <a-row class="container-personal__text-block" type="flex" justify="center">
-        <a-col :span="16">
+        <a-col>
           <h1 class="heading-primary">
             <span class="heading-primary--main">Álvaro Saavedra Díaz</span>
             <span class="heading-primary--sub">Software Developer</span>
@@ -12,9 +12,9 @@
       </a-row>
 
       <!-- Card and Little Bio -->
-      <a-row class="container-personal__card-bio" type="flex" justify="center">
+      <a-row class="container-personal__card-bio" type="flex" justify="space-between">
         <!-- Card -->
-        <a-col :span="6">
+        <a-col :span="8" class="col__card-bio--card">
           <a-card hoverable>
             <img
               slot="cover"
@@ -29,7 +29,7 @@
         </a-col>
 
         <!-- Bio -->
-        <a-col :span="8">
+        <a-col :span="15" class="col__card-bio--bio">
           <h3 class="heading-tertiary card-bio__bio">¡Hola, Mundo!</h3>
           <p
             class="paragraph card-bio__bio"
@@ -53,3 +53,22 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: "Álvaro Saavedra Díaz 🧑‍💻 Software Developer",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software."
+        }
+      ]
+    };
+  }
+};
+</script>

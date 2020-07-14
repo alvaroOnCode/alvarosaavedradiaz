@@ -13,12 +13,11 @@ body {
   &--main {
     display: block;
     font-size: 6rem;
-
     animation: moveInLeft 1s ease-out;
 
     @include respond(phone) {
-      letter-spacing: 1rem;
-      font-family: 5rem;
+      font-size: 2.5rem;
+      letter-spacing: 0.25rem;
     }
   }
 
@@ -30,7 +29,8 @@ body {
     letter-spacing: 2.6rem;
 
     @include respond(phone) {
-      letter-spacing: 0.5rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.75rem;
     }
   }
 }
@@ -51,14 +51,6 @@ body {
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s;
-
-  @include respond(tab-port) {
-    font-size: 3rem;
-  }
-
-  @include respond(phone) {
-    font-size: 2.5rem;
-  }
 
   &:hover {
     transform: scale(1.01);
@@ -138,6 +130,11 @@ main.ant-layout-content {
 
     // Article
     & .container-article {
+      & .heading-secondary {
+        font-size: 2.5rem;
+        padding: 2rem 0;
+      }
+
       & .description {
         color: $color-grey-light;
         font-size: $default-font-size;

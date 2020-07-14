@@ -2,7 +2,7 @@ main.ant-layout-content {
   & .container {
     & .container-personal {
       position: relative;
-      height: 65vh;
+      min-height: 65vh;
 
       & .container-personal__text-block {
         margin: 4rem 0;
@@ -10,7 +10,38 @@ main.ant-layout-content {
 
       & .container-personal__card-bio {
         & .ant-col {
-          margin: 0 1rem;
+          // margin: 0 1rem;
+
+          & .ant-card {
+            & .ant-card-actions {
+              & li {
+                & span {
+                  & .ant-col {
+                    width: 18%;
+                  }
+                }
+              }
+            }
+          }
+
+          &.col__card-bio--card,
+          &.col__card-bio--bio {
+            @include respond(phone) {
+              width: 100%;
+            }
+          }
+
+          &.col__card-bio--card {
+            @include respond(phone) {
+              margin: 0 0 3rem 0;
+            }
+          }
+
+          &.col__card-bio--bio {
+            @include respond(phone) {
+              margin: 0;
+            }
+          }
         }
       }
     }

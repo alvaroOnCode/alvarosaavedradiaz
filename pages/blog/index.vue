@@ -37,12 +37,17 @@
               <!-- Meta -->
               <a-card-meta :title="article.title" class="heading-tertiary">
                 <template slot="description">
-                  <p class="paragraph">{{ article.description }} ➡️</p>
+                  <p class="paragraph">
+                    {{ article.description }}
+                    <a-icon type="caret-right" />
+                  </p>
                 </template>
               </a-card-meta>
 
+              <a-divider></a-divider>
+
               <!-- Tags -->
-              <tag-avatars :tags="article.tags" />
+              <tag-avatars :size="'small'" :tags="article.tags" />
             </a-card>
           </NuxtLink>
         </a-col>
@@ -73,6 +78,21 @@ export default {
     url(tag) {
       return require(`@/assets/images/brands/${tag}.png`);
     }
+  },
+
+  head() {
+    return {
+      title: "Álvaro Saavedra Díaz 🧑‍💻 Software Developer",
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content:
+            "Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software."
+        }
+      ]
+    };
   }
 };
 </script>

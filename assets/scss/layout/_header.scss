@@ -1,5 +1,6 @@
 header.ant-layout-header {
   height: $header-height;
+  padding: 0 12.5vw;
   position: absolute;
   width: 100vw;
 
@@ -24,43 +25,22 @@ header.ant-layout-header {
       height: 32px;
       width: auto;
     }
+
+    @include respond(phone) {
+      width: 40vw;
+    }
   }
 
   & .header--menu-top-nav {
+    text-align: right;
     width: 10vw;
 
-    & ul {
-      background: none;
-      border: none;
-      text-align: right;
-
-      & li {
-        & .ant-menu-submenu-title {
-          color: $color-grey-light;
-
-          &:hover {
-            color: $color-white;
-          }
-        }
-
-        &.ant-menu-submenu {
-          border: none;
-        }
-      }
+    @include respond(phone) {
+      width: 40vw;
     }
   }
-}
 
-.ant-menu-submenu-popup {
-  background: rgba($color: $color-white, $alpha: 0.85);
-
-  & > ul {
-    background-color: transparent;
-
-    & .ant-menu-item {
-      &:hover {
-        color: $color-secondary;
-      }
-    }
+  @include respond(phone) {
+    padding: 0 3rem;
   }
 }

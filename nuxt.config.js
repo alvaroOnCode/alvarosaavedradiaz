@@ -43,7 +43,15 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: [
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-171613166-1"
+      }
+    ],
+    '@nuxtjs/pwa',
+  ],
   /*
    ** Nuxt.js modules
    */
@@ -66,5 +74,29 @@ export default {
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
    */
-  build: {}
+  build: {},
+  /**
+   * PWA
+   */
+  pwa: {
+    manifest: {
+      name: "Álvaro Saavedra",
+      short_name: "Álvaro Saavedra",
+      icons: [
+        {
+          src: "./static/favicon/android-chrome-192x192.png",
+          sizes: "192x192",
+          type: "image/png"
+        },
+        {
+          src: "./static/favicon/android-chrome-512x512.png",
+          sizes: "512x512",
+          type: "image/png"
+        }
+      ],
+      theme_color: "#00aaff",
+      background_color: "#ffffff",
+      display: "standalone"
+    }
+  }
 };

@@ -77,6 +77,20 @@ export default {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("es", options);
     }
+  },
+
+  head() {
+    return {
+      title: `Álvaro Saavedra 🧑‍💻 ${this.article.title}`,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: this.article.description
+        }
+      ]
+    };
   }
 };
 </script>

@@ -1,6 +1,8 @@
 main.ant-layout-content {
   & .container {
     & .container-blog {
+      padding-top: 3rem;
+
       & .container-blog__tags {
         margin-bottom: 2rem;
         text-align: center;
@@ -52,8 +54,21 @@ main.ant-layout-content {
                     text-overflow: ellipsis;
                   }
                 }
+
+                @include respond(phone) {
+                  min-height: 64px;
+                }
+              }
+
+              & .ant-divider {
+                margin: 1.5rem 0;
               }
             }
+          }
+
+          @include respond(phone) {
+            padding: 0 0 2rem 0;
+            width: 100%;
           }
         }
       }
