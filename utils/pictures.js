@@ -1,36 +1,19 @@
 export const pictures = {
-  tintin:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/21227005_500676550281813_6246855208467431424_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=YguLlQvcZ0QAX-5iPe_&oh=34b23a6c1804a869b9a74ccfb68f2218&oe=5F30B601",
-  blackTelephoneBox:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/23594791_1393386360786935_3630005091840294912_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=_wsepMCuI1IAX9MYUbK&oh=ce978c0a2d8b9bf7f15671a5c2814f20&oe=5F2DE16C",
-  smoking:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/26227267_2005755356109141_5343068298386866176_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=occ5GB53PqsAX_g9_0c&oh=1138cd45099058631d636b200109cbcf&oe=5F30F680",
-  sunset:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/27575082_603045846700216_6094819550941937664_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=XOqJNbaNicUAX8EL011&oh=4817b131972b75e85e68e3da29b0002a&oe=5F2E348F",
-  shapesOClock:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/47123842_339063223591051_3687937472481007562_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=6GPREjZu6DgAX8BJxE8&oh=f362c82a2218fcaf4ec3cde036c4bcc1&oe=5F3057D6",
-  fisherman:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/47290867_1260789707392670_6252503969164081782_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=102&_nc_ohc=wcrJuPrcbJoAX-3-C1W&oh=8f9010ae7a24ba6602eb9a6894e9ef6b&oe=5F2DD5A7",
-  sunsetInsideScreen:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/47582694_1958651504430013_6120837702630101500_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=E9utb9NvWlcAX9XoYPI&oh=b66b9a5c71b5b24d6b13d494b4bc8669&oe=5F30F7CE",
-  bogatell:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/51381481_406008833501406_8890671198182061402_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=vLo_V1sF6e0AX8B9-3d&oh=e729bb22e17ee1e0e7c2202758f91601&oe=5F2E93BD",
-  alamedasSoul:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/52806794_296558667707101_5355294033595322218_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=vi7aoaG1eyMAX-QWo-A&oh=a3f079ab33537cb7a9e100d8a6f18d83&oe=5F2F43AD",
-  workingWoman:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/60316865_2256837771249308_4275746802988042495_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=5byGJh3BScUAX_2uNZ7&oh=ecc9135296996cf415314b983ca2f530&oe=5F2E8141",
-  alimentacion:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/62226504_174581310220914_5346128309064457305_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=PrnTdWBP85IAX_vCEfu&oh=6c7ba4aa593d9b39d62b46d803b21df5&oe=5F3062F1",
-  desertVsBluseky:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/67781800_159855918465436_5471924336696677606_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=wdCLX9-T06MAX-GAWHB&oh=558126e93bd77bb232d8fa6f446132af&oe=5F2E91C6",
-  boloniaSunset:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/81840672_1543827462460832_5956532622975084587_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=u-hxGvdH4aEAX8fWSUA&oh=cb6a3ade109d561e306152e5e33ccc73&oe=5F2E8E4D",
-  leicesterSquare:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/93071370_126908055609755_8145385845581234058_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=cWlN0BBB26sAX9YlULi&oh=71499fc4b21202837a15a9513be8c27d&oe=5F3165C4",
-  virtualModels:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/107042434_275322613705225_7295309751980654984_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=Vrus9Di8taEAX9hLM6g&oh=9394ae66ab38a7469a3e323a769140ac&oe=5F2EF45A",
-  cyberburgers:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/21479999_1977730685810001_2894088623496364032_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=ClK_72v4DasAX8p3VJK&oh=310d0cf59808b225e3dbc3cd222386f1&oe=5F2FC88C",
-  curiosity:
-    "https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/93334297_1127749744255986_6529014374566819617_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=106&_nc_ohc=sqeZeoR-7PoAX8t5X8I&oh=84567403575ba7579c263a06881b45a9&oe=5F2EC833"
+  tintin: "",
+  blackTelephoneBox: "",
+  smoking: "",
+  sunset: "",
+  shapesOClock: "",
+  fisherman: "",
+  sunsetInsideScreen: "",
+  bogatell: "",
+  alamedasSoul: "",
+  workingWoman: "",
+  alimentacion: "",
+  desertVsBluseky: "",
+  boloniaSunset: "",
+  leicesterSquare: "",
+  virtualModels: "",
+  cyberburgers: "",
+  curiosity: ""
 };
