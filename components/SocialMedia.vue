@@ -27,7 +27,7 @@
 
     <a-col :span="4">
       <!-- CV -->
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1ugdGDOZEub7VUoF6_8qQ_BR1s7J6XQjV/view?usp=sharing" target="_blank" rel="noopener noreferrer">
         <a-icon type="file-pdf" />
       </a>
     </a-col>

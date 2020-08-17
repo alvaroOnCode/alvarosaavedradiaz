@@ -88,6 +88,16 @@ export default {
           hid: "description",
           name: "description",
           content: this.article.description
+        },
+        {
+          hid: "keywords",
+          name: "keywords",
+          content: this.article.tags
+        },
+        {
+          hid: "author",
+          name: "author",
+          content: "Álvaro Saavedra Díaz"
         }
       ]
     };
