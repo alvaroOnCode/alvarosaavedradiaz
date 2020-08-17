@@ -18,7 +18,8 @@
             class="container-blog__tag"
             color="#73d1ff"
             @click="onClickTag(t.id)"
-          >{{ t.name }}</a-tag>
+            >{{ t.name }}</a-tag
+          >
         </a-col>
 
         <a-col :span="8">
@@ -88,11 +89,11 @@ export default {
     onClickTag(t) {
       // TODO: Filter by tag
       console.log("Pending...");
-    },
-
-    url(tag) {
-      return require(`@/assets/images/brands/${tag}.png`);
     }
+
+    /*url(tag) {
+      return require(`@/assets/images/brands/${tag}.png`);
+    }*/
   },
 
   watch: {
