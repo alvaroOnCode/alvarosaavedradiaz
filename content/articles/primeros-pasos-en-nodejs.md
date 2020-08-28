@@ -1,7 +1,7 @@
 ---
 title: Primeros pasos en NodeJS
 description: Qué es NodeJS y cuáles son sus principales características.
-img:
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
 alt: Primeros pasos en NodeJS
 
 tags: [javascript, nodejs]

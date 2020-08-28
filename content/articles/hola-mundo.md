@@ -1,7 +1,7 @@
 ---
 title: ¡Hola, Mundo!
 description: Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software.
-img: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/55920915_376245199898396_2834525321142525572_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=2qyP7K45aR0AX_kFy5y&oh=daf4ac829319ddaa5cdd5836f69abc0d&oe=5F2E1BEA
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
 alt: ¡Hola, Mundo!
 
 tags: [bienvenida]
@@ -27,7 +27,7 @@ Shortly after completing the Airbus project, I felt curious about the MEVN stack
 
 I love programming, but I’ve always had a soft spot for Architecture. I dedicate time to reading, sketching and creating interactive archviz (architectural visualizations) and renders. But mostly, I open my eyes and look, and admire... and that, I guess, is the reason I discovered photography.
 
-<img src="https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/47582694_1958651504430013_6120837702630101500_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=E9utb9NvWlcAX9XoYPI&oh=b66b9a5c71b5b24d6b13d494b4bc8669&oe=5F30F7CE"
+<img src="https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png"
     alt="Sunset inside screen"
     width="40%"
     height="auto"

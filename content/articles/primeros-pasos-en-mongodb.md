@@ -1,7 +1,7 @@
 ---
 title: Primeros pasos en MongoDB
 description: Aprende a crear y a usar bases de datos en MongoDB con este sencillo tutorial.
-img: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/e35/52806794_296558667707101_5355294033595322218_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=101&_nc_ohc=vi7aoaG1eyMAX-QWo-A&oh=a3f079ab33537cb7a9e100d8a6f18d83&oe=5F2F43AD
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
 alt: Primeros pasos en MongoDB
 
 tags: [mongodb]

@@ -1,19 +1,36 @@
 export const pictures = {
-  tintin: "",
-  blackTelephoneBox: "",
-  smoking: "",
-  sunset: "",
-  shapesOClock: "",
-  fisherman: "",
-  sunsetInsideScreen: "",
-  bogatell: "",
-  alamedasSoul: "",
-  workingWoman: "",
-  alimentacion: "",
-  desertVsBluseky: "",
-  boloniaSunset: "",
-  leicesterSquare: "",
-  virtualModels: "",
-  cyberburgers: "",
-  curiosity: ""
+  tintin:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  blackTelephoneBox:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  smoking:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  sunset:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  shapesOClock:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  fisherman:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  sunsetInsideScreen:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  bogatell:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  alamedasSoul:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  workingWoman:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  alimentacion:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  desertVsBluseky:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  boloniaSunset:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  leicesterSquare:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  virtualModels:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  cyberburgers:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png",
+  curiosity:
+    "https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png"
 };

@@ -1,7 +1,7 @@
 ---
 title: ¡JavaScript al poder!
 description: Aquí encontrarás un breve resumen sobre cómo Javascript ha evolucionado a lo largo del tiempo y porqué apuesto por su amplio stack de posibilidades.
-img: https://scontent-mad1-1.cdninstagram.com/v/t51.2885-15/fr/e15/s1080x1080/21227005_500676550281813_6246855208467431424_n.jpg?_nc_ht=scontent-mad1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=YguLlQvcZ0QAX-5iPe_&oh=34b23a6c1804a869b9a74ccfb68f2218&oe=5F30B601
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
 alt: resumen sobre cómo ha evolucionado Javascript
 
 tags: [javascript]
@@ -13,7 +13,7 @@ Durante muchos años, se ha ganado la fama de lenguaje "poco serio" y caótico e
 
 En la actualidad, hay un amplio stack de JavaScript donde elegir. Además cuenta con grandes comunidades y/o grandes empresas que trabajan duro y apuestan fuerte por la estabilidad y el mantenimiento de sus tecnologías. Aquello de dejar JavaScript para "trampear" el DOM y conseguir algún efecto o alguna funcionalidad concreta quedó atrás. Hoy puedes montar un sitio web entero sólo con JavaScript. ¡SÓLO CON JAVASCRIPT! Así que, ¿qué mejor lenguaje para aprender?
 
-En este blog, escribiré sobre [NodeJS](https://nodejs.org/) y [VueJs](https://vuejs.org/),  mayoritariamente. Si ya has mirando algunos artículos del blog y eres Senior Full-Stack de JavaScript, te habrás dado cuenta de que no soy ningún experto.
+En este blog, escribiré sobre [NodeJS](https://nodejs.org/) y [VueJs](https://vuejs.org/), mayoritariamente. Si ya has mirando algunos artículos del blog y eres Senior Full-Stack de JavaScript, te habrás dado cuenta de que no soy ningún experto.
 
 El propósito de este blog es compartir con otras personas lo que he aprendido, lo que voy aprendiendo y, al mismo tiempo, tener un cuaderno de bitácora al que poder recurrir cuando necesite consultar algún tema que ya viera con anterioridad.
 
