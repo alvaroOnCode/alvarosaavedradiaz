@@ -94,3 +94,6 @@ sw.*
 *.JPG
 *.png
 *.PNG
+
+# PWA Module
+sw.*

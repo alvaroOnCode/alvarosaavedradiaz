@@ -8,7 +8,6 @@ import {
   Col,
   Divider,
   Icon,
-  Input,
   Layout,
   List,
   Menu,
@@ -43,10 +42,6 @@ Vue.component(Divider.name, Divider);
 
 // Icon
 Vue.component(Icon.name, Icon);
-
-// Input
-Vue.component(Input.name, Input);
-Vue.component(Input.Search.name, Input.Search);
 
 // Layout
 Vue.component(Layout.name, Layout);

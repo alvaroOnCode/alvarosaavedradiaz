@@ -4,10 +4,8 @@ main.ant-layout-content {
       padding-top: 3rem;
 
       & .container-blog__tags {
-        & .container-blog__tag {
-          cursor: pointer;
-          margin-bottom: 0.35rem;
-        }
+        margin-bottom: 2rem;
+        text-align: center;
       }
 
       & .container-blog__articles {

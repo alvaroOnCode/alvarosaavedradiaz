@@ -22,21 +22,16 @@
           >
         </a-col>
 
-        <a-col :span="8">
-          <!-- Search -->
-          <a-input-search v-model="searchQuery" placeholder="Buscar" />
-        </a-col>
-      </a-row>
-
       <a-divider />
 
       <!-- Articles -->
-      <a-row class="container-blog__articles" :gutter="24">
+      <a-row class="container-blog__articles" type="flex">
         <a-col
           v-for="article of articles"
           :key="article.slug"
-          :span="8"
+          :span="6"
           class="container-blog__article"
+          hoverable
         >
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <a-card hoverable>
@@ -80,39 +75,15 @@ export default {
   },
 
   data: () => ({
-    articles: [],
-    searchQuery: "",
     tags
   }),
 
   methods: {
-    onClickTag(t) {
-      // TODO: Filter by tag
-      console.log("Pending...");
-    }
-
     /*url(tag) {
       return require(`@/assets/images/brands/${tag}.png`);
     }*/
   },
 
-  watch: {
-    async searchQuery(searchQuery) {
-      if (!searchQuery) {
-        this.articles = await $content("articles", params.slug)
-          .sortBy("createdAt", "asc")
-          .fetch();
-        return;
-      }
-
-      this.articles = await this.$content("articles")
-        //.limit(6)
-        .search(searchQuery)
-        .fetch();
-    }
-  },
-
-  // Meta
   head() {
     return {
       title: "Álvaro Saavedra Díaz 🧑‍💻 Software Developer",

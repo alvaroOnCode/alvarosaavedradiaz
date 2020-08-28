@@ -50,7 +50,7 @@ export default {
         id: "UA-171613166-1"
       }
     ],
-    "@nuxtjs/pwa"
+    '@nuxtjs/pwa',
   ],
   /*
    ** Nuxt.js modules
@@ -82,16 +82,14 @@ export default {
     manifest: {
       name: "Álvaro Saavedra",
       short_name: "Álvaro Saavedra",
-      description:
-        "Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software.",
       icons: [
         {
-          src: "/favicon/android-chrome-192x192.png",
+          src: "./static/favicon/android-chrome-192x192.png",
           sizes: "192x192",
           type: "image/png"
         },
         {
-          src: "/favicon/android-chrome-512x512.png",
+          src: "./static/favicon/android-chrome-512x512.png",
           sizes: "512x512",
           type: "image/png"
         }
