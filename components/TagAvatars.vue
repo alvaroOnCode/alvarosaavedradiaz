@@ -1,10 +1,5 @@
 <template>
-  <a-row
-    v-if="checkTags(tags)"
-    class="container-article__avatars"
-    type="flex"
-    justify="start"
-  >
+  <a-row v-if="checkTags(tags)" class="container-article__avatars" type="flex" justify="start">
     <a-col
       v-for="(tag, index) in tags"
       :key="index"
@@ -16,11 +11,7 @@
           <span>{{ tag }}</span>
         </template>
 
-        <a-avatar
-          :src="url(tag)"
-          class="container-article__avatar"
-          :size="size"
-        />
+        <a-avatar :src="url(tag)" class="container-article__avatar" :size="size" />
       </a-tooltip>
     </a-col>
   </a-row>
@@ -42,21 +33,20 @@ export default {
     size: {
       default: "small",
       type: String,
-      required: true
+      required: true,
     },
 
     tags: {
       type: Array,
-      required: true
-    }
+      required: true,
+    },
   },
 
   methods: {
     checkTags(tags) {
       try {
-        tags.map(t => {
-          return "";
-          //return require(`@/assets/images/brands/${t}.png`);
+        tags.map((t) => {
+          return require(`@/assets/images/brands/${t}.png`);
         });
       } catch (error) {
         return false;
@@ -66,9 +56,8 @@ export default {
     },
 
     url(tag) {
-      return "";
-      //return require(`@/assets/images/brands/${tag}.png`);
-    }
-  }
+      return require(`@/assets/images/brands/${tag}.png`);
+    },
+  },
 };
 </script>

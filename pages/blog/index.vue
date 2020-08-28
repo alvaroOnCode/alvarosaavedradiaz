@@ -18,9 +18,9 @@
             class="container-blog__tag"
             color="#73d1ff"
             @click="onClickTag(t.id)"
-            >{{ t.name }}</a-tag
-          >
+          >{{ t.name }}</a-tag>
         </a-col>
+      </a-row>
 
       <a-divider />
 
@@ -70,18 +70,18 @@ export default {
       .fetch();
 
     return {
-      articles
+      articles,
     };
   },
 
   data: () => ({
-    tags
+    tags,
   }),
 
   methods: {
-    /*url(tag) {
+    url(tag) {
       return require(`@/assets/images/brands/${tag}.png`);
-    }*/
+    },
   },
 
   head() {
@@ -93,10 +93,10 @@ export default {
           hid: "description",
           name: "description",
           content:
-            "Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software."
-        }
-      ]
+            "Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software.",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

@@ -84,3 +84,16 @@
     animation-fill-mode: backwards;
   }
 }
+
+header.ant-layout-header {
+  & .header--menu-top-nav {
+    & .btn--nav {
+      &:hover {
+        background-color: $color-white !important;
+        border-color: $color-white;
+        color: $color-secondary !important;
+        font-weight: bolder;
+      }
+    }
+  }
+}
