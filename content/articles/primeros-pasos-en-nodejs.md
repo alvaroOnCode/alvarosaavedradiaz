@@ -1,7 +1,7 @@
 ---
 title: Primeros pasos en NodeJS
 description: Qué es NodeJS y cuáles son sus principales características.
-img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg
 alt: Primeros pasos en NodeJS
 
 tags: [javascript, nodejs]
@@ -29,13 +29,13 @@ NodeJS se ejecuta sobre el motor V8 de JavaScript, creado por _The Chromium Proj
 
 Empecemos creado un nuevo proceso de NodeJS. Abramos la terminal y escribamos el siguiente comando:
 
-```
+```bash
 $ node
 ```
 
 Esto arrancará un nuevo proceso de NodeJS donde podremos escribir código JavaScript. Por ejemplo, probemos a declarar un variable de nombre _autor_ cuyo valor será _'Álvaro'_.
 
-```
+```js
 > let autor = 'Álvaro';
 ```
 
@@ -45,7 +45,7 @@ Además de poder escribir código JavaScript dentro de la `shell` de NodeJS pode
 
 Por ejemplo, vamos a crear un directorio de nombre _probando-nodejs_ el cual contendrá un fichero llamado _test.js_.
 
-```
+```bash
 $ mkdir probando-nodejs;
 $ cd probando-nodejs;
 $ touch test.js;
@@ -54,13 +54,13 @@ $ node test.js;
 
 Al estar vacío el archivo _test.js_, no se nos devuelve nada. Añadamos algo de JavaScript al fichero:
 
-```
-console.log('Hello, World!');
+```js
+console.log("Hello, World!");
 ```
 
 Y volvamos a ejecutar el archivo con NodeJS:
 
-```
+```bash
 $ node test.js;
 ```
 
@@ -68,21 +68,23 @@ Ahora sí podemos ver que nos devuelve la cadena _'Hello, World!'_.
 
 Todo esto está muy bien pero lo realmente potente y relevante de NodeJS es que también nos ofrece herramientas para ejecutar un entorno del lado del servidor. NodeJS integra un módulo que nos permite habilitar un servidor HTTP asíncrono. Veamos cómo sería el código para un server que escucha en el puerto _8088_ de nuestro _localhost_:
 
-```
-const http = require('http');
+```js
+const http = require("http");
 
 const data = {
   port: 8088,
-  host: '127.0.0.1'
+  host: "127.0.0.1"
 };
 
-http.createServer(function(req, res) {
-  res.writeHead(200, {
-    'Content-type': 'text/plain'
-  });
+http
+  .createServer(function(req, res) {
+    res.writeHead(200, {
+      "Content-type": "text/plain"
+    });
 
-  res.end('Hello, World!\n');
-}).listen(data.port, data.host);
+    res.end("Hello, World!\n");
+  })
+  .listen(data.port, data.host);
 
 console.log(`Server running at http://${data.host}:${data.port}`);
 ```
@@ -91,7 +93,7 @@ Lo primero que hemos hecho en este fragmento de código es traernos el módulo _
 
 Ahora, volvamos a arrancar el archivo con el comando `node` y veremos que el prompt se queda en ejecución tras lanzar el log:
 
-```
+```bash
 $ node test.js
 Server running at http://127.0.0.1:8088
 |
@@ -104,3 +106,9 @@ Si ves como salida el texto _Hello, World!_ lo has consegido.
 Para salir de la aplicación NodeJS pulsaremos `Ctrl+C` dos veces y recuperaremos el control de la terminal.
 
 Nos vemos pronto.
+
+--
+
+Créditos
+
+<a class="credits" href='https://www.freepik.es/fotos/tecnologia'>Foto de Tecnología creado por pressfoto - www.freepik.es</a>

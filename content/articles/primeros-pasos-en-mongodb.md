@@ -1,7 +1,7 @@
 ---
 title: Primeros pasos en MongoDB
 description: Aprende a crear y a usar bases de datos en MongoDB con este sencillo tutorial.
-img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg
 alt: Primeros pasos en MongoDB
 
 tags: [mongodb]
@@ -15,7 +15,7 @@ Voy a dar por hecho que ya tenemos MongoDB instalado correctamente en nuestro or
 
 Lo primero de todo es abrir una terminal en nuestro sistema operativo y arrancar el servidor de MongoDB mediante el siguiente comando:
 
-```
+```bash
 $ mongod
 ```
 
@@ -23,7 +23,7 @@ Tras ello, veremos varios `logs` en la consola emitidos por MongoDB acerca del p
 
 A continuación, abriremos otro terminal del sistema operativo y pondremos en marcha la `shell` de MongoDB con este comando:
 
-```
+```bash
 $ mongo
 ```
 
@@ -65,7 +65,7 @@ Ahora que ya tenemos nuestra base de datos creada, demos un repaso rápido a los
 
 El comando `insert` se usa para crear nuevos registros en una `collection`. Añadamos alguno a nuestra base de datos **amigos**. Lo primero sería crear una `collection` en la que almacenar dichos registros, en este caso vamos a crear una colección para alacenar a nuestros amigos de la **infancia**. Para ello, ejecutaremos la siguiente instrucción:
 
-```
+```js
 > db.infancia.insertOne({
     nombre: 'Manolito',
     desc: 'Manolito fue mi primer amigo de la infancia'
@@ -76,7 +76,7 @@ Al igual que ocurre con las bases de datos, al añadir un registro a una colecci
 
 Justo después de escribir el comando para insertar registros, la `shell` debería devolvernos un **JSON** parecido a este:
 
-```
+```js
 {
   "acknowledged": true,
   "insertedId": ObjectId("5f107cad6e663f0010ddfa05")
@@ -104,7 +104,7 @@ Como es obvio, MongoDB nos permite consultar todos los registros de una colecci�
 
 Para solcitar todos los registros añadidos a la colleción **infancia** de la base de datos **amigos** deberíamos usar el siguiente comando:
 
-```
+```js
 > db.infancia.find();
 {"_id":"5f107cad6e663f0010ddfa05","nombre":"Manolito","desc":"Manolito fue mi primer amigo de la infancia"}
 {"_id":"5f107cd46e663f0010ddfa06","nombre":"José Ángel","desc":"Mi primer amigo en el colegio"}
@@ -112,7 +112,7 @@ Para solcitar todos los registros añadidos a la colleción **infancia** de la b
 
 Un poco complicado de leer, ¿verdad? Probemos a usar la función `pretty()` al final de la consulta:
 
-```
+```js
 > db.infancia.find().pretty();
 {
   "_id": "5f107cad6e663f0010ddfa05",
@@ -130,7 +130,7 @@ Un poco complicado de leer, ¿verdad? Probemos a usar la función `pretty()` al 
 
 Si queremos encontrar un `document` concreto, por ejemplo buscando por **nombre**, deberíamos añadir algún parámetro a la consulta:
 
-```
+```js
 > db.infancia.find({ 'nombre': 'Manolito' }).pretty();
 {
   "_id": "5f107cad6e663f0010ddfa05",
@@ -143,7 +143,7 @@ Si queremos encontrar un `document` concreto, por ejemplo buscando por **nombre*
 
 Si queremos cambiar el valor de alguna de las propiedades de algún documento, debemos usar el comando `update` y sus derivados. En este caso, vamos a cambiar el valor de la propiedad **desc** del `document` cuyo campo **nombre** es igual a **Manolito**:
 
-```
+```js
 > db.infancia.updateOne(
   { 'nombre': 'Manolito' },
   {
@@ -154,7 +154,7 @@ Si queremos cambiar el valor de alguna de las propiedades de algún documento, d
 
 Si todo va bien, deberíamos ver una salida por consola parecida a esta:
 
-```
+```js
 { "acknowledged": true, "matchedCount": 1, "modifiedCount": 1 }
 ```
 
@@ -164,26 +164,30 @@ Podríamos interpretar ese `log` como que la petición ha sido _admitida_, que h
 
 Para cerrar el círculo del **CRUD** que hemos planteado en este artículo vamos a ver cómo eliminar `documents` de una `collection` en MongoDB. Si quiséramos borrar aquellos registros cuya propiedad **nombre** coincidiera con **José Ángel** simplmenete tendríamos que usar este comando:
 
-```
+```js
 > db.infancia.remove({ 'nombre': 'José Ángel' });
 ```
 
 Si sólo quisiéramos borrar el primer documento coincidente tendríamos que usar este otro comando:
 
-```
+```js
 > db.infancia.deleteOne({ 'nombre': 'José Ángel' });
 ```
 
 Y para borrar todos los registros de una colección, y ojito con esto que no tenemos `ctrl + z`, debemos usar:
 
-```
+```js
 > db.infancia.remove({});
 ```
 
 Y ya está. Así de sencillo es trabajar con MongoDB. Obviamente esto es el `a-b-c` y que la cosa va más allá pero a mí me resultó muy sencilla la curva de aprendizaje en comparación con otros gestores de bases de datos.
 
---
-
 Ojalá este artículo ayude a alguien a iniciarse en esta maravillosa base de datos. Teniendo cierta experiencia con JavaScript nos será muy sencillo adoptar la filosofía y los conceptos de funcionalidad de MongoDB.
 
 Nos vemos pronto.
+
+--
+
+Créditos
+
+<a class="credits" href='https://www.freepik.es/fotos/tecnologia'>Foto de Tecnología creado por pressfoto - www.freepik.es</a>

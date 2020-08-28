@@ -1,5 +1,5 @@
 <template>
-  <a-row v-if="checkTags(tags)" class="container-article__avatars" type="flex" justify="start">
+  <a-row v-if="checkTags()" class="container-article__avatars" type="flex" justify="start">
     <a-col
       v-for="(tag, index) in tags"
       :key="index"
@@ -43,20 +43,30 @@ export default {
   },
 
   methods: {
-    checkTags(tags) {
-      try {
-        tags.map((t) => {
-          return require(`@/assets/images/brands/${t}.png`);
-        });
-      } catch (error) {
-        return false;
-      }
+    checkTags() {
+      const founds = [];
 
-      return true;
+      this.tags.forEach((t) => {
+        Object.keys(this.$tags).forEach((item) => {
+          if (item === t) {
+            founds.push(this.$tags[item]);
+          }
+        });
+      });
+
+      return founds.length > 0;
     },
 
     url(tag) {
-      return require(`@/assets/images/brands/${tag}.png`);
+      let found;
+
+      Object.keys(this.$tags).forEach((item) => {
+        if (item === tag) {
+          found = this.$tags[item];
+        }
+      });
+
+      return found ? found.img : "";
     },
   },
 };

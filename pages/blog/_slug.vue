@@ -7,7 +7,11 @@
           <a-row type="flex" justify="space-between">
             <!-- Image -->
             <a-col :span="7" class="container-article__heading--img">
-              <img :src="article.img" :alt="article.alt" />
+              <img
+                :alt="article.alt"
+                :class="`tag tag-${article.tags[article.tags.length - 1]}`"
+                :src="article.img"
+              />
             </a-col>
 
             <!-- Title and description -->
@@ -68,7 +72,7 @@ export default {
     return {
       article,
       prev,
-      next
+      next,
     };
   },
 
@@ -76,7 +80,7 @@ export default {
     formatDate(date) {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("es", options);
-    }
+    },
   },
 
   head() {
@@ -87,20 +91,20 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: this.article.description
+          content: this.article.description,
         },
         {
           hid: "keywords",
           name: "keywords",
-          content: this.article.tags
+          content: this.article.tags,
         },
         {
           hid: "author",
           name: "author",
-          content: "Álvaro Saavedra Díaz"
-        }
-      ]
+          content: "Álvaro Saavedra Díaz",
+        },
+      ],
     };
-  }
+  },
 };
 </script>

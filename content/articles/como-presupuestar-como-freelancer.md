@@ -23,7 +23,7 @@ Tener una única estrategia para presupuestar todo tipo de proyectos suele ser s
 
 Entender los pros y los contras de cada estrategia, así como nuestras circunstancias, y conocer realmente el proyecto que nos encargan es esencial para poder elegir cómo presupuestar un proyecto correctamente.
 
-<img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-escoger_114360-553.jpg"
+<img src="https://image.freepik.com/vector-gratis/ilustracion-concepto-preguntas_114360-1513.jpg"
     alt="Entender las estrategias para elaborar presupuestos"
     width="40%"
     height="auto"
@@ -143,3 +143,10 @@ Como conclusión, podríamos decir que:
 Seguro que la próxima vez que nos toque presupuestar algún proyecto cambia nuestra forma de plantearlo.
 
 ¡Saludos!
+
+--
+
+Créditos
+
+- <a class="credits" href='https://www.freepik.es/vectores/personas'>Vector de Personas creado por stories - www.freepik.es</a>
+- <a class="credits" href='https://www.freepik.es/vectores/negocios'>Vector de Negocios creado por freepik - www.freepik.es</a>

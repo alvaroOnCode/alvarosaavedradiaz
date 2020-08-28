@@ -34,7 +34,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: ["@/plugins/antd-ui"],
+  plugins: ["@/plugins/antd-ui", "@/plugins/pictures", "@/plugins/tags"],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -50,7 +50,7 @@ export default {
         id: "UA-171613166-1"
       }
     ],
-    '@nuxtjs/pwa',
+    "@nuxtjs/pwa"
   ],
   /*
    ** Nuxt.js modules
@@ -84,12 +84,12 @@ export default {
       short_name: "Álvaro Saavedra",
       icons: [
         {
-          src: "./static/favicon/android-chrome-192x192.png",
+          src: "./favicon/android-chrome-192x192.png",
           sizes: "192x192",
           type: "image/png"
         },
         {
-          src: "./static/favicon/android-chrome-512x512.png",
+          src: "./favicon/android-chrome-512x512.png",
           sizes: "512x512",
           type: "image/png"
         }

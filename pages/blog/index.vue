@@ -9,10 +9,10 @@
       </a-row>
 
       <!-- Tags & Search -->
-      <a-row type="flex" justify="space-between">
-        <a-col :span="8" class="container-blog__tags">
-          <!-- Tags -->
-          <a-tag
+      <!-- <a-row type="flex" justify="space-between">
+      <a-col :span="8" class="container-blog__tags">-->
+      <!-- Tags -->
+      <!-- <a-tag
             v-for="(t, i) in tags"
             :key="i"
             class="container-blog__tag"
@@ -20,7 +20,7 @@
             @click="onClickTag(t.id)"
           >{{ t.name }}</a-tag>
         </a-col>
-      </a-row>
+      </a-row>-->
 
       <a-divider />
 
@@ -61,8 +61,6 @@
 </template>
 
 <script>
-import { tags } from "../../utils/tags";
-
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content("articles", params.slug)
@@ -72,16 +70,6 @@ export default {
     return {
       articles,
     };
-  },
-
-  data: () => ({
-    tags,
-  }),
-
-  methods: {
-    url(tag) {
-      return require(`@/assets/images/brands/${tag}.png`);
-    },
   },
 
   head() {

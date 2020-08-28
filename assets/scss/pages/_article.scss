@@ -20,6 +20,50 @@ main.ant-layout-content {
               object-fit: cover;
               width: 100%;
             }
+
+            /*& .tag-github {
+              background-image: linear-gradient(
+                  to right bottom,
+                  rgba(65, 131, 196, 0.5),
+                  rgba(65, 131, 196, 0.65)
+                ),
+                url(https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg);
+              background-position: center center;
+              background-size: cover;
+            }
+
+            & .tag-javascript {
+              background-image: linear-gradient(
+                  to right bottom,
+                  rgba(#f7df1e, 0.5),
+                  rgba(#f7df1e, 0.65)
+                ),
+                url(https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg);
+              background-position: center center;
+              background-size: cover;
+            }
+
+            & .tag-mongodb {
+              background-image: linear-gradient(
+                  to right bottom,
+                  rgba(77, 179, 61, 0.75),
+                  rgba(63, 160, 55, 0.75)
+                ),
+                url(https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg);
+              background-position: center center;
+              background-size: cover;
+            }
+
+            & .tag-nodejs {
+              background-image: linear-gradient(
+                  to right bottom,
+                  rgba(104, 160, 99, 0.75),
+                  rgba(60, 135, 58, 0.75)
+                ),
+                url(https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg);
+              background-position: center center;
+              background-size: cover;
+            }*/
           }
 
           @include respond(phone) {

@@ -22,3 +22,9 @@ Es así de sencillo:
 Espero que te resulte útil.
 
 ¡Nos vemos pronto!
+
+--
+
+Créditos
+
+<a class="credits" href='https://www.freepik.es/fotos/tecnologia'>Foto de Tecnología creado por pressfoto - www.freepik.es</a>
