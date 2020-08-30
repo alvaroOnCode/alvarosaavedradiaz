@@ -1,7 +1,7 @@
 ---
 title: ¡Hola, Mundo!
 description: Página web de Álvaro Saavedra (@alvaroOnCode), donde encontrarás información personal, profesional y artículos de desarrollo de software.
-img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1598780770/alvarosaavedradiaz/assets/images/cyberburgers_nqsw2o.jpg
 alt: ¡Hola, Mundo!
 
 tags: [bienvenida]
@@ -27,7 +27,7 @@ Shortly after completing the Airbus project, I felt curious about the MEVN stack
 
 I love programming, but I’ve always had a soft spot for Architecture. I dedicate time to reading, sketching and creating interactive archviz (architectural visualizations) and renders. But mostly, I open my eyes and look, and admire... and that, I guess, is the reason I discovered photography.
 
-<img src="https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png"
+<img src="https://res.cloudinary.com/alvarooncode/image/upload/v1598780087/alvarosaavedradiaz/assets/images/sunset-inside-screen_bluvwv.jpg"
     alt="Sunset inside screen"
     width="40%"
     height="auto"

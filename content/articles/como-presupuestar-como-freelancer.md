@@ -1,7 +1,7 @@
 ---
 title: Cómo presupuestar como freelancer
 description: Si quieres aprender cómo presupuestar proyectos cuando trabajas como Freelancer, aquí encontrarás varias estrategias para obtener ingresos y éxito.
-img: https://res.cloudinary.com/alvarooncode/image/upload/v1597688979/alvarosaavedradiaz/articles/placeholder_f6z0um.png
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1598780492/alvarosaavedradiaz/assets/images/working-woman_shljyb.jpg
 alt: Cómo presupuestar como freelancer
 
 tags: [finanzas, freelancer]
