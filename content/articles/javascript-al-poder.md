@@ -1,7 +1,7 @@
 ---
 title: ¡JavaScript al poder!
 description: Aquí encontrarás un breve resumen sobre cómo Javascript ha evolucionado a lo largo del tiempo y porqué apuesto por su amplio stack de posibilidades.
-img: https://res.cloudinary.com/alvarooncode/image/upload/v1598629600/alvarosaavedradiaz/assets/images/19858-20-percent_fdpfec.jpg
+img: https://res.cloudinary.com/alvarooncode/image/upload/v1598735198/alvarosaavedradiaz/assets/images/18699-15-percent_os3dwk.jpg
 alt: resumen sobre cómo ha evolucionado Javascript
 
 tags: [javascript]
