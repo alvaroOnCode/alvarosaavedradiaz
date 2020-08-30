@@ -5,6 +5,10 @@ footer.ant-layout-footer {
   text-align: center;
   vertical-align: middle;
 
+  @include respond(phone) {
+    height: calc(1.5 * #{$footer-height});
+  }
+
   p {
     margin: 0;
 
@@ -26,6 +30,10 @@ footer.ant-layout-footer {
         color: $color-secondary;
         filter: drop-shadow(0 0 4px $color-secondary);
       }
+    }
+
+    @include respond(phone) {
+      margin: 0 8rem;
     }
   }
 }

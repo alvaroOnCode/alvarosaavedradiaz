@@ -99,6 +99,10 @@ main.ant-layout-content {
             }
           }
 
+          @include respond(tab-port) {
+            width: 33%;
+          }
+
           @include respond(phone) {
             padding: 0 0 2rem 0;
             width: 100%;

@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: "universal",
+  mode: "spa",
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -66,7 +66,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: "prism-themes/themes/prism-material-oceanic.css"
+        theme: "prism-themes/themes/prism-vsc-dark-plus.css"
       }
     }
   },
